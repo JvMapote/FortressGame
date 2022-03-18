@@ -15,8 +15,6 @@ public class PlayerMovement : MonoBehaviour
     bool jumping;
     
    
-
-    // Update is called once per frame
     void Update()
     {
         //animations and getting input

@@ -21,7 +21,7 @@ public class WalkingScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //input value for move
+        //Input value for move
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         //animator.SetFloat("Speed", Mathf.Abs(horizontalMove));

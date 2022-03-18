@@ -11,7 +11,7 @@ public class ScoreTextScript : MonoBehaviour
     Text text;
     public static int itemAmount;
     public static int counts;
-    // Start is called before the first frame update
+    
     void Start()
     {
         //The timer
@@ -21,7 +21,7 @@ public class ScoreTextScript : MonoBehaviour
         text = GetComponent<Text>();   
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
 

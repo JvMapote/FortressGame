@@ -193,15 +193,6 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 
-	/*if (!audioSource.isPlaying && (m_Grounded == true && jump == false && crouch == false))
-				{
-					audioSource.loop = true;
-					audioSource.Play();
-				}
-				else
-				{
-					audioSource.loop = false;
-				}
-				*/
+
 
 }

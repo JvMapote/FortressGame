@@ -9,16 +9,13 @@ public class LevelLoader : MonoBehaviour
     public float transitionTime = 1f;
     int set;
    
-    // Start is called before the first frame update
    
-
-    // Update is called once per frame
     void Update()
     {
         //conditions for scenes
         if (Input.GetMouseButtonDown(0))
         {
-            //SceneManager.LoadScene("Scene B");
+           
         
             set = SceneManager.GetActiveScene().buildIndex;
             LoadNextLevel();
@@ -31,7 +28,7 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadNextLevel()
     {
-        //conditions for scenes
+        
         if (set == 0)
         {
             StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
