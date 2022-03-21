@@ -1,4 +1,3 @@
-# FortressGame
 Its a simple 2d platform Unity game with some great visual and mechanics
 
 Its a simple game that me, Jan Coleen Estilo and Adrienne M. Maunahan made, back in highschool.
